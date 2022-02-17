@@ -1,0 +1,87 @@
+apiVersion: v1
+entries:
+  kube-bench-adapter:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-17T09:51:54.802255274Z"
+    description: The kube-bench adapter periodically runs a CIS benchmark check using
+      cron-job with a tool called kube-bench and produces a cluster-wide policy report
+      based on the Policy Report Custom Resource Definition
+    digest: adabf21f6182cd17f5c26bb4d3e2ff712a6928dc0d52ba5e3ba7c9c027ba536c
+    name: kube-bench-adapter
+    type: application
+    urls:
+    - https://github.com/mritunjaysharma394/kyverno-charts/releases/download/kube-bench-adapter-0.1.1/kube-bench-adapter-0.1.1.tgz
+    version: 0.1.1
+  kyverno:
+  - apiVersion: v1
+    appVersion: v1.5.1
+    created: "2022-02-17T09:51:55.212395938Z"
+    description: Kubernetes Native Policy Management
+    digest: 9db437cd533df79912775ad769220e6ab022f6213180a36969bdc558469b0298
+    home: https://kyverno.io/
+    icon: https://github.com/kyverno/kyverno/raw/main/img/logo.png
+    keywords:
+    - kubernetes
+    - nirmata
+    - policy agent
+    - validating webhook
+    - admissions controller
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - name: Nirmata
+      url: https://kyverno.io/
+    name: kyverno
+    sources:
+    - https://github.com/kyverno/kyverno
+    urls:
+    - https://github.com/mritunjaysharma394/kyverno-charts/releases/download/kyverno-v2.1.3/kyverno-v2.1.3.tgz
+    version: v2.1.3
+  - apiVersion: v1
+    appVersion: v1.5.1-n4kbuild.1
+    created: "2022-02-17T09:51:55.085487483Z"
+    description: Kubernetes Native Policy Management
+    digest: cb9b1eb5b950772df8abc998db5d115ccb3c96fd79540acc623a573a7d07c826
+    home: https://kyverno.io/
+    icon: https://github.com/kyverno/kyverno/raw/main/img/logo.png
+    keywords:
+    - kubernetes
+    - nirmata
+    - policy agent
+    - policy engine
+    - validating webhook
+    - admissions controller
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Nirmata
+      url: https://nirmata.com/
+    name: kyverno
+    sources:
+    - https://github.com/kyverno/kyverno
+    urls:
+    - https://github.com/mritunjaysharma394/kyverno-charts/releases/download/kyverno-v1.1.0/kyverno-v1.1.0.tgz
+    version: v1.1.0
+  - apiVersion: v1
+    appVersion: v1.5.1
+    created: "2022-02-17T09:51:54.953119939Z"
+    description: Kubernetes Native Policy Management
+    digest: 096a9619d3cb16b081d0502664ab2f9a21423bdb645f8d45538c50fbe3e8b9c4
+    home: https://kyverno.io/
+    icon: https://github.com/kyverno/kyverno/raw/main/img/logo.png
+    keywords:
+    - kubernetes
+    - nirmata
+    - policy agent
+    - validating webhook
+    - admissions controller
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Nirmata
+      url: https://kyverno.io/
+    name: kyverno
+    sources:
+    - https://github.com/kyverno/kyverno
+    urls:
+    - https://github.com/mritunjaysharma394/kyverno-charts/releases/download/kyverno-v1.1.0-14-aws/kyverno-v1.1.0-14-aws.tgz
+    version: v1.1.0-14-aws
+generated: "2022-02-17T09:51:55.212434841Z"
